@@ -5,9 +5,13 @@ This repository contains a Python script to calculate the Frechet Inception Dist
 
 Key Features:
 CIFAR-10 Data Loading: Includes a function to load CIFAR-10 data from binary files.
+
 Image Scaling: Resizes images to match the input size required by the InceptionV3 model.
+
 FID Calculation: Computes the FID score by comparing the statistics (mean and covariance) of activations from the InceptionV3 model for two image datasets.
+
 Model Initialization: Initializes the InceptionV3 model with pre-trained weights that must be downloaded separately.
+
 Example Usage: The script calculates FID using the same set of images to demonstrate the process.
 
 
