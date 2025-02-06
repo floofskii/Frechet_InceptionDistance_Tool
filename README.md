@@ -17,11 +17,15 @@ Example Usage: The script calculates FID using the same set of images to demonst
 
 Files and Directories:
 CIFAR-10 Dataset: The script expects the CIFAR-10 dataset in binary format.
+
 InceptionV3 Weights: The script requires a local file path to the pre-trained weights of the InceptionV3 model.
 
 How to Use:
+
 Download CIFAR-10 Data: Ensure you have the CIFAR-10 dataset downloaded and extracted in the specified path.
+
 Download InceptionV3 Weights: Manually download the InceptionV3 model weights (inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5) and specify the path in the script.
+
 Run the Script: Execute the script to load images, preprocess them, and calculate the FID score.
 
 Example:
