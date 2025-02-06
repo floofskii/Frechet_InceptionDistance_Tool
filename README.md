@@ -1,5 +1,3 @@
-Python script for FID calculation using InceptionV3 on CIFAR-10
-
 # Frechet_InceptionDistance_Tool
 
 CIFAR-10 Frechet Inception Distance (FID) Calculation
